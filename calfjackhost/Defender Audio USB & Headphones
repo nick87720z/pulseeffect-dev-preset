@@ -1,0 +1,64 @@
+<?xml version="1.1" encoding="utf-8"?>
+<rack><plugin type="bassenhancer" instance-name="Bass Enhancer" input-index="1" output-index="1">
+<preset bank="0" program="0" plugin="bassenhancer" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="amount" value="1" />
+  <param name="meter_in" value="0" />
+  <param name="meter_out" value="0" />
+  <param name="clip_in" value="0" />
+  <param name="clip_out" value="0" />
+  <param name="drive" value="10" />
+  <param name="blend" value="0" />
+  <param name="meter_drive" value="0" />
+  <param name="freq" value="100" />
+  <param name="listen" value="0" />
+  <param name="floor_active" value="1" />
+  <param name="floor" value="10" />
+</preset>
+</plugin>
+<plugin type="filter" instance-name="Filter" input-index="3" output-index="3">
+<preset bank="0" program="0" plugin="filter" name="">
+  <param name="freq" value="40" />
+  <param name="res" value="0.707" />
+  <param name="mode" value="5" />
+  <param name="inertia" value="20" />
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0" />
+  <param name="meter_inR" value="0" />
+  <param name="meter_outL" value="0" />
+  <param name="meter_outR" value="0" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+</preset>
+</plugin>
+<plugin type="limiter" instance-name="Limiter" input-index="5" output-index="5">
+<preset bank="0" program="0" plugin="limiter" name="">
+  <param name="bypass" value="0" />
+  <param name="level_in" value="1" />
+  <param name="level_out" value="1" />
+  <param name="meter_inL" value="0" />
+  <param name="meter_inR" value="0" />
+  <param name="meter_outL" value="4.58137e-26" />
+  <param name="meter_outR" value="4.58137e-26" />
+  <param name="clip_inL" value="0" />
+  <param name="clip_inR" value="0" />
+  <param name="clip_outL" value="0" />
+  <param name="clip_outR" value="0" />
+  <param name="limit" value="1" />
+  <param name="attack" value="5" />
+  <param name="release" value="50" />
+  <param name="att" value="1" />
+  <param name="asc" value="1" />
+  <param name="asc_led" value="0" />
+  <param name="asc_coeff" value="0.5" />
+  <param name="oversampling" value="1" />
+  <param name="auto_level" value="1" />
+</preset>
+</plugin>
+</rack>
